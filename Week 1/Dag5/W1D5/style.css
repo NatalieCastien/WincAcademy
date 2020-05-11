@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+    background-color: #abc0c5;
+    font-family: 'Sacramento', cursive;
+}
+.header {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Menu */
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    padding: 20px 0 10px 20px;
+}
+.menu-icon:hover {
+    cursor: pointer;
+}
+.menu-closed {
+    overflow: hidden;  
+    transition: all .4s ease-in-out;
+    height: 0;
+}
+.menu-collapsed {
+    height: 370px; 
+    overflow: hidden;  
+    transition: all .4s ease-in-out;
+}
+#menu-container {
+    position: absolute;
+    width: 200px;
+    height: 370px;
+    top: 0;
+}
+
+/* Menu list */
+ul {
+    list-style: none;
+    padding: 0 0 0 22px;
+    margin-top: 0;
+}
+ul li {
+    margin-bottom: 2px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 110px;
+    font-size: 25px;
+}
+ul li input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+ul li input:hover {
+    cursor: pointer;
+}
+
+/* Color-name */
+#color-container {    
+    text-align: center;
+}
+#color-name {
+    margin-top: 200px;
+}
+#color-name h1 {
+    font-size: 5rem;
+}
+
+/* Colors */
+.home {
+    background-color: #abc0c5;
+}
+.oceanblue {
+    background-color: #69bdb7;
+}
+.blue {
+    background-color: #567d98;
+}
+.purple {
+    background-color: #77769c;
+}
+.peach {
+    background-color: #ee7a79;
+}
+.salmon {
+    background-color: #f5bba3;
+}
+.yellow {
+    background-color: #f6debe;
+}

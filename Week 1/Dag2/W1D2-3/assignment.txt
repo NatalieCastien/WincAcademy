@@ -1,0 +1,3 @@
+De comment regels zie je niet als je de code runt met node. 
+dit komt omdat deze comments niet worden gezien als code die moet worden uitgevoerd. 
+Het is alleen bedoelt ter ondersteuning van het document, read-only.

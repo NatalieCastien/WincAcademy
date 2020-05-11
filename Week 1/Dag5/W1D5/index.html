@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorToggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu-container">
+        <img src="hamburger.png" id="menu-button" class="menu-icon" alt="hamburgermenu icon"/>
+        
+        <div id="menu" class="menu-closed">
+            <form>
+                <ul id="menu-ul">
+                    <li class="home"><input checked type="radio" name="colors" id="home">Home</li>
+                    <li class="oceanblue"><input type="radio" name="colors" id="oceanblue">Oceanblue</li>
+                    <li class="blue"><input type="radio" name="colors" id="blue">Blue</li>
+                    <li class="purple"><input type="radio" name="colors" id="purple">Purple</li>
+                    <li class="salmon"><input type="radio" name="colors" id="salmon">Salmon</li>
+                    <li class="peach"><input type="radio" name="colors" id="peach">Peach</li>
+                    <li class="yellow"><input type="radio" name="colors" id="yellow">Yellow</li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Toggle your color!</h1>
+    </div>
+    
+    <div id="color-container">
+        <div id="color-name">
+            <h1>Home</h1>
+        </div>
+    </div>
+</body>
+</html>

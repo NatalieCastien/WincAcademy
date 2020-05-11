@@ -1,0 +1,16 @@
+whoami = shows the name/code of my desktop
+ls = shows all my folders in this drive
+cd directoryname = change directory, and
+cd .. = go back a folder
+pwd = logs the name of current directory
+mkdir foldername = make a new directory/folder 
+ni filename = make a new file
+
+dir filename = show the file again
+
+rm filename = removes the file
+mv folder newfolder = move to another folder
+
+copy filename newfilename = copy a file and give the copied file a new name
+
+gci -recurse -filter "filename" = find a file and the location of the file
