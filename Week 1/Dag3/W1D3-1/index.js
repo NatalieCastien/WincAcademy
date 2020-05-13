@@ -6,7 +6,7 @@ let person = {
     evaluations: [7, 10, 9]
 }
 
-console.log("person: " + person);
+console.log(person);
 
 console.log(person.name);
 console.log(person['age']);
