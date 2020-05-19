@@ -1,0 +1,47 @@
+Opdracht a)
+Get request op https://wincacademy.nl/
+Geeft als respons: 200 OK
+Server: Apache
+
+Opdracht b)
+Post request met body:
+{
+  "opleiding":"Winc Academy",
+  "oordeel":"is de allerbeste"
+}
+
+1.
+Response:
+{
+  "args": {}, 
+  "data": "{\r\n  \"opleiding\":\"Winc Academy\",\r\n  \"oordeel\":\"is de allerbeste\"\r\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate, br", 
+    "Content-Length": "67", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Postman-Token": "11af1c8b-44e3-4f1a-91b8-d6636ce10f59", 
+    "User-Agent": "PostmanRuntime/7.24.1", 
+    "X-Amzn-Trace-Id": "Root=1-5ec26dda-b7974ab26e3b604ea54bfb32"
+  }, 
+  "json": {
+    "oordeel": "is de allerbeste", 
+    "opleiding": "Winc Academy"
+  }, 
+  "origin": "213.127.26.69", 
+  "url": "https://httpbin.org/post"
+}
+
+Response code = 200 OK, deze zie je in de balk.
+
+2.
+Response: 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
+
+Response code: 404. Omdat deze url waarschijnlijk niet bestaat. Het zou niet handig zijn als iemand alles kan verwijderen via deze url.
