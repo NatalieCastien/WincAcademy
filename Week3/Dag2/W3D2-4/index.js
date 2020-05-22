@@ -56,7 +56,8 @@ const getFailingPromise = (errorMessage, ms) => {
      while (i <= 50) {
        let id = i;
        allPromises.push({
-         id
+         id: id, 
+         state: "pending"
        });
        consumePromise(allPromises, id);
        i++;
