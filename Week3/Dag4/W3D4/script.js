@@ -274,6 +274,7 @@ const showMatch = () => {
          return [name, person.region, person.age, zodiacSign]
     })
     console.log(showList);
+    // Not finished yet
 }
 
 matchMakingButton.addEventListener('click', showMatch);
