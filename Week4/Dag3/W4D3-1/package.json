@@ -1,0 +1,16 @@
+{
+  "name": "W4D3-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-extended": "^0.11.5"
+  }
+}
