@@ -1,8 +1,8 @@
 {
-  "name": "W4D3-1",
+  "name": "W4D4-1",
   "version": "1.0.0",
   "description": "",
-  "main": "functions.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --watchAll"
   },
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.0.1",
-    "jest-extended": "^0.11.5"
+    "jest": "^26.0.1"
   }
 }
